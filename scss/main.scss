@@ -1,6 +1,7 @@
 @import "./blocks/nav" ;
 @import "./blocks/main_header";
 @import "./blocks/main_header_down";
+@import "./blocks/main_header_end";
 
 *{
     margin: 0;
@@ -18,8 +19,8 @@
 
 @media (max-width: 448px) {
     .container{
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 @media (min-width: 449px) and (max-width: 768px) {
