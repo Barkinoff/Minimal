@@ -93,14 +93,34 @@
    }
 }
 @media (min-width: 449px) and (max-width: 768px) {
-    .container{
-        padding-left: 50px;
-        padding-right: 50px;
+    .main_header_end{
+        top: 700px;
+
+        h1{
+            font-weight: 100;
+            font-size: 17px;
+            line-height: 28px;
+        }
+    }
+    .main_header_end_box{
+        flex-wrap: wrap;
+        gap: 40px;
     }
 }
 @media (min-width: 769px) and (max-width: 1200px) {
-    .container{
-        padding-left: 75px;
-        padding-right: 75px;
+    .main_header_end{
+        top: 730px;
+        padding-bottom: 50px;
+        gap: 30px;
+
+        h1{
+            font-weight: 100;
+            font-size: 17px;
+            line-height: 28px;
+        }
+    }
+    .main_header_end_box{
+        flex-wrap: wrap;
+        gap: 50px;
     }
 }
